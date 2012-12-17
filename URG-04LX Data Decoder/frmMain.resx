@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="staStatus.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="txtInput.Text" xml:space="preserve">
+    <value>4D 44 30 30 34 34 30 37 32 35 30 31 30 30 31 0A 30 30 50 0A 0A 4D 44 30 30 34 34 30 37 32 35 30 31 30 30 30 0A 39 39 62 0A 30 38 45 66 43 0A 30 51 44 30 51 53 30 51 5B 30 51 6E 30 52 36 30 52 46 30 52 5A 30 52 63 30 53 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 38 0A 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 0A 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 0A 30 30 30 30 4A 33 30 4A 33 30 4A 33 30 4A 48 30 4A 4E 30 4A 69 30 4A 6F 30 4B 4C 30 58 42 30 58 59 30 58 59 30 58 4B 30 58 4B 30 58 40 30 58 3C 30 58 36 30 57 6C 30 57 6C 30 57 6C 30 57 6E 30 5E 0A 57 6E 30 57 6E 30 33 5F 30 33 5F 30 33 5F 30 33 66 30 33 67 30 33 67 30 33 66 30 33 60 30 33 5F 30 33 5F 30 33 5F 30 33 60 30 33 62 30 33 64 30 33 64 30 33 64 30 33 62 30 33 62 30 33 61 30 33 6D 0A 62 30 33 62 30 33 61 30 33 61 30 33 61 30 33 61 30 33 61 30 33 61 30 33 61 30 33 61 30 33 61 30 33 60 30 33 61 30 33 61 30 33 63 30 33 63 30 33 65 30 33 65 30 33 65 30 33 64 30 33 66 30 33 64 41 0A 30 33 63 30 33 64 30 33 60 30 33 5F 30 33 5F 30 33 60 30 33 60 30 33 63 30 33 64 30 33 69 30 33 6A 30 33 6D 30 33 6E 30 33 6F 30 34 30 30 34 35 30 34 36 30 34 42 30 35 5B 30 36 37 30 36 3B 30 3E 0A 36 3C 30 36 3C 30 36 3D 30 36 41 30 36 42 30 36 50 30 36 51 30 36 51 30 36 51 30 36 4A 30 36 4A 30 36 49 30 36 48 30 36 45 30 36 45 30 36 45 30 36 45 30 36 45 30 36 43 30 36 45 30 36 45 30 36 4A 0A 44 30 36 44 30 36 44 30 36 44 30 36 44 30 36 42 30 36 44 30 36 44 30 36 44 30 36 44 30 36 45 30 36 46 30 36 48 30 36 48 30 36 48 30 36 49 30 36 49 30 36 49 30 36 4F 30 36 51 30 36 54 30 36 54 3A 0A 30 36 55 30 36 55 30 36 55 30 36 56 30 36 56 30 36 56 30 36 59 30 36 5D 30 36 5D 30 36 5D 30 36 62 30 36 66 30 36 67 30 36 67 30 36 68 30 36 68 30 36 69 30 36 69 30 36 6B 30 36 6D 30 36 6E 30 6D 0A 37 33 30 37 37 30 37 3D 30 37 43 30 37 44 30 37 44 30 37 47 30 37 47 30 37 47 30 37 47 30 37 43 30 37 42 30 37 39 30 37 39 30 37 39 30 38 32 30 38 5D 30 38 61 30 38 61 30 38 64 30 38 64 30 38 38 0A 64 30 38 64 30 38 5E 30 38 5B 30 38 5A 30 38 4F 30 38 4F 30 38 54 30 38 54 30 38 54 30 38 54 30 38 51 30 38 51 30 38 51 30 38 56 30 38 56 30 38 56 30 38 55 30 38 55 30 38 55 30 38 5D 30 38 67 39 0A 30 38 67 30 38 6C 30 38 6C 30 38 6C 30 38 6E 30 39 31 30 39 32 30 4E 50 30 4E 50 30 4E 50 30 4E 50 30 4E 50 30 4E 57 30 4E 58 30 4E 5C 30 4E 65 30 4E 6E 30 4E 6E 30 4E 6E 30 49 65 30 49 4A 30 49 0A 49 49 30 49 49 30 49 49 30 49 4A 30 49 4E 30 49 50 30 49 57 30 49 59 30 49 69 30 49 69 30 4A 32 30 4A 32 30 4A 39 30 4A 3C 30 4A 47 30 4A 4C 30 4A 4C 30 4A 47 30 4A 47 30 4A 3C 30 4A 3A 30 4A 33 0A 31 30 49 69 30 49 69 30 49 69 30 4A 45 30 4A 4D 30 4A 61 30 4B 44 30 4B 45 30 4B 59 30 4B 59 30 4B 59 30 4B 4B 30 4B 4B 30 4B 4B 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 65 0A 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 31 42 69 31 42 5C 31 42 5C 31 42 5C 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 39 0A 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 57 46 30 57 36 30 57 31 30 56 6C 30 56 6C 30 56 6C 0A 6A 30 56 67 30 56 67 30 57 3C 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 57 0A 30 30 30 30 30 30 30 30 30 30 30 30 30 30 37 30 3E 49 30 36 68 30 36 68 30 36 65 30 36 65 30 36 5A 30 36 5A 30 36 53 30 36 53 30 36 53 30 36 46 30 36 42 30 36 41 30 36 3F 30 36 3C 30 36 3A 30 6D 0A 36 3A 30 36 38 30 36 38 30 36 38 30 36 30 30 35 6F 30 35 6D 30 35 6D 30 35 6D 30 36 49 30 36 5A 30 36 61 30 36 61 30 36 61 30 36 61 30 38 3A 30 38 45 30 38 46 30 38 45 30 38 45 30 38 46 30 38 52 0A 45 30 38 45 30 38 45 30 38 49 30 38 48 30 38 48 30 38 46 30 38 48 30 38 48 30 38 48 30 38 49 30 38 49 30 38 4F 30 38 51 30 38 51 30 38 51 30 38 51 30 38 52 30 38 55 30 38 55 30 38 55 30 38 55 49 0A 30 38 56 30 38 58 30 38 5A 30 38 5C 30 38 5D 30 38 5E 30 38 5E 30 38 62 30 38 66 30 38 66 30 38 66 30 38 66 30 38 68 30 38 68 30 38 69 30 38 69 30 38 69 30 38 53 30 38 4E 30 38 46 30 37 5A 30 6A 0A 36 54 30 36 54 30 36 54 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 35 3C 30 35 34 30 34 67 30 34 60 30 34 58 30 34 67 0A 4F 30 34 4E 30 34 4B 30 34 33 30 33 6C 30 33 67 30 33 60 30 33 60 30 33 5F 30 33 5F 30 33 5B 30 33 5A 30 33 5A 30 33 59 30 33 56 30 33 55 30 33 53 30 33 53 30 33 53 30 33 4F 30 33 4E 30 33 4D 34 0A 30 33 47 30 33 47 30 33 49 30 33 49 30 33 4A 30 33 50 30 33 4D 30 33 50 30 33 55 30 33 51 30 33 50 30 33 50 30 33 4A 30 33 49 30 33 48 30 33 48 30 33 48 30 33 4D 30 33 64 30 33 6F 30 34 31 30 59 0A 34 31 30 34 32 30 34 33 30 34 6D 30 35 48 30 35 48 30 35 48 30 34 34 30 33 57 30 33 55 30 33 55 30 33 55 30 33 61 30 34 4F 30 34 5D 30 34 69 30 34 5D 30 34 67 30 34 69 30 35 30 30 35 30 30 30 3C 0A 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 37 30 30 30 30 30 30 30 30 30 30 33 40 30 33 40 30 33 40 30 33 40 30 33 40 30 33 40 30 33 40 30 33 40 30 33 50 30 33 50 55 0A 30 33 51 30 33 50 30 33 4E 30 33 48 30 33 48 30 33 39 30 32 52 30 32 43 30 32 43 30 32 43 30 32 52 30 32 63 30 32 6A 30 33 3A 30 33 3E 30 33 42 30 33 43 30 30 30 30 30 30 30 30 30 30 30 30 30 5B 0A 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 33 4D 30 33 4D 30 33 4D 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 38 41 30 38 38 30 38 41 0A 38 30 38 34 30 38 34 30 38 38 30 38 3C 30 38 43 30 38 43 30 38 43 30 38 42 30 38 41 30 38 41 30 38 41 30 38 3C 30 38 3C 30 38 3C 30 38 3A 30 38 3A 30 38 3B 30 38 3B 30 38 3B 30 38 3C 30 38 3C 6B 0A 30 38 3C 30 38 3C 30 38 3C 30 38 3C 30 38 3A 30 38 3A 30 38 39 30 38 35 30 38 35 30 37 48 30 36 5A 30 36 4E 30 35 67 30 35 48 30 35 48 30 35 47 30 35 47 30 35 44 30 35 44 30 35 44 30 35 44 30 54 0A 36 53 30 30 37 30 30 30 30 33 6A 30 34 4E 30 34 4E 30 34 4E 30 35 38 30 36 33 30 36 55 30 36 67 30 37 30 30 37 30 30 37 3C 30 38 3E 30 38 41 30 38 41 30 38 41 30 38 3C 30 38 3B 30 38 33 55 0A 0A</value>
+  </data>
+</root>
